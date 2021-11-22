@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .hdr{
+            background-color: #3c4141 ;
+        }
+        .hdra{
+            text-align: center;
+        }
+       .rounding{
+           top: -8px;
+           border-radius: 100%;
+           width: 150px;
+           height: 150px;
+           z-index: 2;
+           padding: 3px;
+           border-style: dotted;
+           border-width: 5px;
+           border-color: #ec9d0b;
+           position: relative;
+           
+       }
+       .hdr1{
+           height: 30px;
+           width: 100%;
+           background-color: rgb(219,217,217);
+           position: relative;
+           top: -20px;
+           z-index: 5;
+       }
+       .hdr2{
+           position: relative;
+           width: 350px;
+           top: -9px;
+           margin: auto;
+           background-color: #ec9d0b;
+           text-align: center;
+           z-index: 10;
+       }
+       .spantxt{
+           font-size: 40px;
+          font-family: sans-serif,verdana;
+           
+       }
+       .address{
+           text-align: center;
+           font-family: Arial, Helvetica, sans-serif ;
+       }
+       .hr{
+           height: 2px;
+           /* color: rgb(219,217,217); */
+           border-top: ridge;
+       }
+       .proimg{
+           width: 35px;
+       }
+       .subhead{
+           font-family: sans-serif, Verdana;
+           font-size: 30px;
+           text-align: center;
+           font: bold;
+       }
+       .parapro{
+           font-family: Verdana, Geneva, Tahoma, sans-serif;
+           font-size: 15px;
+         
+       }
+       .container1{
+           width: 48%;
+           display: inline-block;
+           
+           
+       }
+       .padd1{
+           margin-right: 25px;
+           margin-left: 50px;
+           padding-right: 25px;
+           padding-left: 25px;
+       }
+       .subbhead{
+           text-align: center;
+           font: bolder;
+           font-family: sans-serif, Verdana;
+           font-size: 19px;
+       }
+       .container2{
+          width: 48%;
+           display: inline-block;
+
+       }
+       .skillset{
+           display: flex;
+           justify-content: space-between;
+       }
+       .skillname{
+           font-family: Verdana, Geneva, Tahoma, sans-serif;
+       }
+       .skillbar{
+           width: 50%;
+           border-radius: 15px;
+           border: grey solid;
+           text-align: left;
+
+       }
+       .ninty{
+           width: 90%;
+           background-color: gray;
+           font-family: Verdana, Geneva, Tahoma, sans-serif;
+           color: honeydew;
+       }
+       .seventy{
+           width: 70%;
+           background-color: gray;
+           font-family: Verdana, Geneva, Tahoma, sans-serif;
+           color: honeydew;
+       }
+       .sixty{
+           width: 60%;
+           background-color: gray;
+           font-family: Verdana, Geneva, Tahoma, sans-serif;
+           color: honeydew;
+       }
+       .eighty{
+           width: 80%;
+           background-color: gray;
+           font-family: Verdana, Geneva, Tahoma, sans-serif;
+           color: honeydew;
+       }
+       .hundred{
+           width: 100%;
+           background-color: gray;
+           font-family: Verdana, Geneva, Tahoma, sans-serif;
+           color: honeydew;
+       }
+       .first{
+           display: flex;
+           justify-content: space-evenly;
+       }
+       .basic{
+           font-family: Verdana, Geneva, Tahoma, sans-serif;
+           font: bolder;
+       }
+       .vr{
+           width: 2px;
+           border-right: indigo;
+           height: 100%;
+           background-color:gray ;
+       }
+       .container3{
+           width: 1%;
+           align-content: center;
+       }
+
+      
+       
+       
+    </style>
+</head>
+<body>
+    <div class="hdr">
+        <br>
+        <br>
+        <br>
+        <div class="hdra">
+            <img src="E:\wallpapers\final1.jpg" alt="" class="rounding">
+            <div class="hdr1">
+                <div class="hdr2">
+                    <div class="spantxt">RAKESH DIVATE</div>
+                </div>
+            </div>
+
+        </div>
+        
+    </div>
+    <div  class="address"><p>N. Damen Avenue, Chicago 99999|999-999-999| rakeshkmr361@gmail.com | www.kickresume.com</p></div>
+   <div class="hr"></div>
+   <br>
+    <div class="first">
+        <div class="container1">
+            <div class="padd1">
+                <div>
+                    <img src="C:\Users\rakes\Desktop\bootcamp-js\resume\profile.png" alt="" class="proimg">
+                    <span class="subhead">Profile</span><br>
+                </div>
+                <div class="parapro">
+                    <p>Innovative optimizer solution seeker. Excited to be at the development phase of my new career as a web developer.
+                         I am ambitious, adventurous, assiduous, animated, and an alliteration advocate</p>
+                </div>
+                <div>
+                    <img src="C:\Users\rakes\Desktop\bootcamp-js\resume\skill.png" alt="" class="proimg">
+                   <span class="subhead">Skills</span>
+                </div>
+                <br>
+                <br>
+                <div class="subbhead">
+                    <span>Technical Skills</span>
+                </div>
+                <br>     
+                <div class="skillset">
+                    <div class="skillname">Java Script</div>
+                    <div class="skillbar">
+                        <div class="ninty">&nbsp;</div>
+                    </div>
+                </div>
+                <br>     
+                <div class="skillset">
+                    <div class="skillname">CSS</div>
+                    <div class="skillbar">
+                        <div class="ninty">&nbsp;</div>
+                    </div>
+                </div>
+                <br>     
+                <div class="skillset">
+                    <div class="skillname">HTML</div>
+                    <div class="skillbar">
+                        <div class="seventy">&nbsp;</div>
+                    </div>
+                </div>
+                <br>     
+                <div class="skillset">
+                    <div class="skillname">React</div>
+                    <div class="skillbar">
+                        <div class="sixty">&nbsp;</div>
+                    </div>
+                </div>
+                <br>     
+                <div class="skillset">
+                    <div class="skillname">Node</div>
+                    <div class="skillbar">
+                        <div class="eighty">&nbsp;</div>
+                    </div>
+                </div>
+                <br>     
+                <div class="skillset">
+                    <div class="skillname">Development</div>
+                    <div class="skillbar">
+                        <div class="hundred">&nbsp;</div>
+                    </div>
+                </div>
+                <br>
+                <div class="subbhead">
+                    <span>Additinoal Skills</span>
+                </div>
+                <br>     
+                <div class="skillset">
+                    <div class="skillname">Project Management</div>
+                    <div class="skillbar">
+                        <div class="hundred">&nbsp;</div>
+                    </div>
+                </div>
+                <br>     
+                <div class="skillset">
+                    <div class="skillname">Recruitment</div>
+                    <div class="skillbar">
+                        <div class="ninty">&nbsp;</div>
+                    </div>
+                </div>
+                <br>     
+                <div class="skillset">
+                    <div class="skillname">Business Development</div>
+                    <div class="skillbar">
+                        <div class="seventy">&nbsp;</div>
+                    </div>
+                </div>
+                <br>     
+                <div class="skillset">
+                    <div class="skillname">Editing</div>
+                    <div class="skillbar">
+                        <div class="hundred">&nbsp;</div>
+                    </div>
+                </div>
+                <br>
+                <div>
+                    <img src="C:\Users\rakes\Desktop\bootcamp-js\resume\work.png" alt="" class="proimg">
+                    <span class="subhead">Work Experience</span>
+                </div>
+                <div style="display: flex; justify-content: space-between;">
+                    <h3 class="basic">Event Manager</h3>
+                    <div>03/2014 - 07/2017</div>
+                </div>
+                <div><h2 class="basic">C3 Presents, Washington DC</h2></div>
+                <div>
+                    <ul style="list-style-type: disc; font-family: Verdana, Geneva, Tahoma, sans-serif;">
+                        <li>Lead and Execute all phases of event planning and production spanning committee recruitment, training, vendor relationship and on-site facilitation</li><br>
+                        <li>Brought new business to the organization through relentless network and stewardship which helped the company win the bid for the State Department Summit in the Middle Ease and, the companies largest civic event to date, the United State of Women</li><br>
+                        <li>Exercise fiscal control over budget creation, tracking and reporting. Collaborate with employees at all organizations levels to advance cohesive operations</li><br>
+                    </ul>
+                </div>
+            </div>
+            <br>         
+        </div>
+        <div class="container3">
+            <div class="vr">
+            </div>
+        </div>
+        <div class="container2">
+            <div class="padd1">
+                <div>
+                    <img src="C:\Users\rakes\Desktop\bootcamp-js\resume\work.png" alt="" class="proimg">
+                    <span class="subhead">Work Experience</span>
+                </div>
+                <br>
+                <div style="display: flex; justify-content: space-between;">
+                    <div class="basic">Community Relations Manager</div>
+                    <div>06/2011 - 01/2014</div>
+                </div>
+                <div><h2 class="basic">C3 Presents, Washington DC</h2></div>
+                <div>
+                    <ul style="list-style-type: disc; font-family: Verdana, Geneva, Tahoma, sans-serif;">
+                        <li>Arranging presentation and pitch deck.</li><br>
+                        <li>Designing a PR plan and establishing important focus points.</li><br>
+                        <li>Designing, creating and managing content across multiple communication platform</li><br>
+                        <li>Building relationship with key media players.</li><br>
+                    </ul>
+                </div>
+                <div>
+                    <img src="C:\Users\rakes\Desktop\bootcamp-js\resume\education.png" alt="" class="proimg">
+                   <span class="subhead">Education</span>
+                </div>
+                <br>
+                <div style="display: flex; justify-content: space-between;">
+                    <div class="basic">Engineering Immersion Program</div>
+                    <div>11/2018 - 06/2018</div>
+                </div>
+                <div><h2 class="basic">Thinkful, Chicago, IL</h2></div>
+                <div class="basic">
+                    Project-focused intensive program with emphasis on Mongo, Express, React, and JavaScript(MERN) technical stack.
+                </div>
+                <br>
+                <div>
+                    <ul style="list-style-type: disc; font-family: Verdana, Geneva, Tahoma, sans-serif;">
+                        <li>Developed a full-stack web application, 'RenewU', using React that allows users to explore various aspects of meditation. User's progress is stored on a backend created using Node and MongoDB.</li><br>
+                        <li>Developed a language learning app, 'Foodie Phonetics', using spaced repetion and a linked list data structure. React was used to create the front end components while Node and MongoDB were used to create the backend that stores user data.</li><br>
+                        <li>Developed a concierge app, 'Pley', for individuals looking for curated suggestions when visiting a new place. React was used to create the front end which includes real-time chat, drag and drop and variety of advanced features. The backend, built using Node, Express, and Mongo, takes advantage of well-developed RESTful API, Geospatial searching, and user authentication with JWT.</li><br>
+                    </ul>
+                </div>
+                <div style="display: flex; justify-content: space-between;">
+                    <div class="basic">BA, English</div>
+                    <div>09/2001 - 09/2005</div>
+                </div>
+                <div><h2 class="basic">University of California, Los Angeles.</h2></div>
+                 
+
+            </div>
+        </div>
+    </div>
+
+
+</body>
+</html>
