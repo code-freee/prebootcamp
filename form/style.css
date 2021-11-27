@@ -1,0 +1,238 @@
+body
+{
+    background-color: dimgray;
+}
+
+.logoimg
+{
+    border-radius: 100%;
+    width: 30px;
+}
+
+.outermostdiv
+{
+    height:auto;
+    width:50%;
+    margin:auto;
+    background-color: rgb(148, 147, 147);
+}
+
+.innerdiv
+{
+    height:auto;
+    width:100%;
+    background-color: rgb(48, 34, 48);
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+
+fieldset
+{
+    text-align: center;
+    border-style: dotted;
+    border-top-right-radius: 50px;
+    border-top-left-radius: 50px;
+    border-width: 3px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+legend
+{
+    padding-left:20px;
+    padding-right:20px;
+    z-index:10;
+}
+
+.titlehdr
+{
+    font-family: 'Cabin Condensed', sans-serif;
+    font-size: x-large;
+    letter-spacing:2px;
+    color:whitesmoke;
+}
+
+.fancydiv
+{
+    margin:auto;
+    text-align: center;
+}
+
+.fancyletter
+{
+    font-family: 'Lovers Quarrel', cursive;
+    font-size:100px;
+    color:whitesmoke;
+}
+
+.fancytext
+{
+    font-family: 'Crimson Text', serif;
+    font-size: x-large;
+    color:whitesmoke;
+    letter-spacing: 2px;
+}
+
+.mouse
+{
+    width:50px;
+}
+
+.fancydiv-left
+{
+    width: 80%;
+    text-align: start;
+    margin-left: 5%;
+}
+
+.description-left
+{
+    text-align: justify;
+    width:60%;
+    margin-left: 10%;
+}
+
+.fancydiv-left1
+{
+    width: 60%;
+    text-align: start;
+    margin-left: 5%;
+    line-height: 20px;
+}
+
+.fancydiv-right
+{
+    width: 60%;
+    text-align: end;
+    margin-left: 20%;
+    line-height: 20px;
+}
+
+.description-right
+{
+    text-align: justify;
+    width: 50%;
+    margin-left: 45%;
+}
+
+.font1
+{
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: x-large;
+    color:whitesmoke;
+    letter-spacing:6px;
+}
+
+.font2
+{
+    font-family: 'Cormorant Garamond', serif;
+    font-size: medium;
+    color:whitesmoke;
+}
+
+.description
+{
+    text-align: justify;
+    width:60%;
+    margin: auto;
+}
+
+.descriptiontxt
+{
+    font-family: 'Tajawal', sans-serif;
+    font-size: x-small;
+    color:whitesmoke;
+}
+
+.bottom-container
+{
+    display:inline-grid;
+    grid-template-columns: auto auto auto;
+    padding:10px;
+}
+
+.grid-item
+{
+    text-align:justify;
+    padding: 20px;
+}
+
+.bottomtext1
+{
+    font-family: 'Open Sans', sans-serif;
+    color:whitesmoke
+}
+
+.slantdivcommon
+{
+    padding-top: 100px;
+    padding-bottom:100px;
+    transform:skewY(-4deg);
+    position: relative;
+    z-index: 9;
+}
+
+.skewrev
+{
+    transform:skewY(4deg);
+}
+
+#div1
+{   
+    background-color: #14274e;
+}
+
+#div2
+{  
+    background-color: #394867;
+    
+}
+
+#div3
+{
+   
+    background-color: darkcyan;
+    
+}
+
+#div4
+{
+    background-color: #555555;
+    
+    
+}
+
+#div5
+{
+    background-color:#2b2e4a;
+    
+}
+
+#div6
+{
+    background-color:#52616b;
+    
+}
+
+#div7
+{
+    background-color: #928a97;
+    
+}
+
+#div8
+{
+    background-color:#db542b;
+    
+}
+
+#div9
+{
+    padding-top: 100px;
+    top:-100px;
+    position:relative;
+    background-color:rgb(95, 62, 112);
+    clip-path:polygon(0 14%,100% 0, 100% 100%,0 100%);
+    padding-bottom: 50px;
+    
+}
