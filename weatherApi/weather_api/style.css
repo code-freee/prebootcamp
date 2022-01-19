@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch&family=Grechen+Fuemen&family=Press+Start+2P&family=Righteous&family=Secular+One&family=VT323&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --primary-color:rgb(206, 206, 206);
+}
+.container{
+    width: 100vw;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image:linear-gradient( to top,rgb(0, 0, 0),rgba(0, 0, 0, 0.534),rgba(0, 0, 0, 0.589), rgba(0, 0, 0, 1)), url('img4.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.row{
+    width: 80vw;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: .5em;
+    justify-content: center;
+}
+.rowDiv{
+    background: rgba(255, 255, 255, 0.226);
+    display: flex;
+    width: 20vw;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border-radius: 15px;
+    transition: all .2s ease-in-out;
+}
+.rowDiv:hover{
+    transform: translateX(1em);
+    box-shadow: inset .5em .5em 2em rgb(160, 160, 160),
+                inset -.5em -.5em 2em rgb(160, 160, 160);
+    height: auto;
+}
+.innerDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.img{
+    width: 20vw;
+    height: 12em;
+}
+h1{
+    font-size: 1.7em;
+    padding: .4em 0;
+    color: var(--primary-color);
+    font-family: 'Secular One', sans-serif;
+}
+h3{
+    padding: .4em;
+    color: var(--primary-color);
+    font-family: 'Public Sans', sans-serif;
+}
+.btn{
+    margin: 1em 0;
+    width: 15em;
+    height: 3em;
+    border-radius: 5px;
+    border: none;background: black;
+    color: var(--primary-color);
+    font-family: 'Public Sans', sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+@media only screen and (max-width:1380px){
+   
+    .rowDiv{
+        width: 28vw;
+    }
+    .img{
+        width: 100%;
+    }
+    }
+
+@media only screen and (max-width:1024px){
+    .row{
+        width: 100vw;
+    }
+    .rowDiv{
+        width: 32vw;
+    }
+    .img{
+        width: 100%;
+    }
+    }
+
+@media only screen and (max-width:1024px){
+        .row{
+            width: 90vw;
+            grid-template-columns: 1fr 1fr;
+        }
+        .rowDiv{
+            width: 45vw;
+        }
+        .img{
+            width: 100%;
+        }
+        }
+
+@media only screen and (max-width:480px){
+    .row{
+        width: 90vw;
+        grid-template-columns: 1fr;
+    }
+    .rowDiv{
+        width: 95vw;
+    }
+    .img{
+        width: 100%;
+    }
+    }        
